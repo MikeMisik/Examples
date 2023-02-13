@@ -17,7 +17,7 @@ Console.WriteLine("+");
 
 int x = xa, y = xb;
 int count = 0;
-while (count < 10);
+while (count < 10000)
 { 
     int what = new Random().Next(0, 3);
     if (what == 0)
@@ -33,8 +33,8 @@ while (count < 10);
     }
     if (what == 2)
     {
-        x = (x + xс) / 2;
-        y = (y + yс) / 2;
+        x = (x + xc) / 2;
+        y = (y + yc) / 2;
     }
     Console.SetCursorPosition(x, y);
     Console.WriteLine("+");
