@@ -18,8 +18,7 @@ if (number < min || number > max)
 }
 else 
 {
-    int digit1 = (number / 10) % 10;
-    // int digit2 = digit1 % 10;
-    Console.WriteLine(digit1);
+    int digit2 = (number / 10) % 10;
+    Console.WriteLine($"Вторая цифра введённого числа: {digit2}");
 }
 
